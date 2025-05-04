@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { TrendingUp, FileText } from "lucide-react";
+import { FileText, TrendingUp, Users, Clock, Zap } from "lucide-react";
 
 interface LearnItemProps {
   icon: React.ReactNode;
@@ -9,7 +9,7 @@ interface LearnItemProps {
 
 const LearnItem: React.FC<LearnItemProps> = ({ icon, text }) => {
   return (
-    <div className="flex items-start gap-4 p-4">
+    <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
       <div className="p-2 bg-neuro-lightPurple/30 rounded-lg text-neuro-purple flex-shrink-0">
         {icon}
       </div>
@@ -21,28 +21,24 @@ const LearnItem: React.FC<LearnItemProps> = ({ icon, text }) => {
 const LearnSection = () => {
   const learnItems = [
     {
-      text: "Como usar o ChatGPT de forma estratégica no dia a dia do RH",
-      icon: <TrendingUp size={24} />,
-    },
-    {
-      text: "Criar relatórios em minutos (e com cara de relatório caro!)",
-      icon: <TrendingUp size={24} />,
-    },
-    {
-      text: "Automatizar tarefas chatas (e ganhar tempo de verdade)",
-      icon: <TrendingUp size={24} />,
-    },
-    {
-      text: "Ranquear currículos com eficiência e inteligência",
-      icon: <TrendingUp size={24} />,
-    },
-    {
-      text: "Reduzir o tempo de processos seletivos e aumentar a qualidade",
-      icon: <TrendingUp size={24} />,
-    },
-    {
-      text: "Produzir textos, feedbacks e respostas com o apoio da IA",
+      text: "Como usar o ChatGPT para gerar relatórios em minutos",
       icon: <FileText size={24} />,
+    },
+    {
+      text: "Como analisar e classificar currículos usando IA",
+      icon: <TrendingUp size={24} />,
+    },
+    {
+      text: "Como criar processos seletivos mais inteligentes",
+      icon: <Users size={24} />,
+    },
+    {
+      text: "Como automatizar tarefas repetitivas de RH",
+      icon: <Clock size={24} />,
+    },
+    {
+      text: "Usar prompts prontos para tarefas cotidianas de RH",
+      icon: <Zap size={24} />,
     },
   ];
 
@@ -58,6 +54,10 @@ const LearnSection = () => {
             <LearnItem key={index} text={item.text} icon={item.icon} />
           ))}
         </div>
+
+        <p className="text-center mt-12 text-lg font-medium text-neuro-purple">
+          Tudo isso explicado passo a passo, com exemplos práticos e aplicações reais.
+        </p>
       </div>
     </section>
   );

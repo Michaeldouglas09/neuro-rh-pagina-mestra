@@ -30,19 +30,19 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      quote: "Eu achava que IA era coisa de TI. Depois desse curso, virei referência de inovação no meu time de RH.",
-      author: "Juliana A.",
-      title: "Analista de RH",
+      quote: "Eu achava que IA era coisa de TI. Depois desse curso, virei referência de inovação no meu time de RH. Consegui reduzir o tempo de triagem de currículos em 70%.",
+      author: "Carolina M.",
+      title: "Analista de Seleção",
     },
     {
-      quote: "O assistente de contrato me salvou de um baita erro em uma cláusula. Valeu cada centavo!",
-      author: "Rodrigo M.",
-      title: "Coordenador de Gente & Gestão",
+      quote: "O assistente de contrato me salvou de um baita erro em uma cláusula. Economizei tempo e possíveis dores de cabeça jurídicas. Valeu cada centavo!",
+      author: "Felipe S.",
+      title: "Coordenador de Seleção",
     },
     {
-      quote: "Nunca mais fiquei travada na hora de escrever um feedback ou criar uma pesquisa de clima. Agora eu tenho um copiloto!",
-      author: "Vanessa L.",
-      title: "Business Partner",
+      quote: "Nunca mais fiquei travada na hora de escrever um feedback ou criar uma pesquisa de clima. As ferramentas são intuitivas e práticas, mesmo para quem não é da área tech.",
+      author: "Daniela R.",
+      title: "Consultora Organizacional",
     },
   ];
 

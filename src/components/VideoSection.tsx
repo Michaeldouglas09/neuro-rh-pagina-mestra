@@ -7,7 +7,7 @@ const VideoSection = () => {
     <section className="bg-white section-padding">
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Conheça o NeuroRH
+          Veja o curso em ação
         </h2>
         
         <div className="bg-neuro-lightGray rounded-2xl p-10 max-w-4xl mx-auto aspect-video flex items-center justify-center">
@@ -15,8 +15,8 @@ const VideoSection = () => {
             <div className="w-20 h-20 bg-neuro-purple/20 rounded-full flex items-center justify-center mx-auto mb-6">
               <Play size={32} className="text-neuro-purple ml-2" />
             </div>
-            <p className="text-xl font-medium text-neuro-gray">
-              Prefere ver em vídeo? Em breve você terá um resumo completo do curso por aqui.
+            <p className="text-xl font-medium text-neuro-gray max-w-md mx-auto">
+              Prefere ver em vídeo? Em breve você terá um resumo completo do curso e exemplos práticos por aqui.
             </p>
           </div>
         </div>

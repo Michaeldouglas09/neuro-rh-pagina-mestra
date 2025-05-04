@@ -7,6 +7,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import BonusSection from '@/components/BonusSection';
 import PriceSection from '@/components/PriceSection';
 import VideoSection from '@/components/VideoSection';
+import AuthorSection from '@/components/AuthorSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -23,6 +24,7 @@ const Index = () => {
       <LearnSection />
       <TestimonialsSection />
       <BonusSection />
+      <AuthorSection />
       <div ref={priceRef}>
         <PriceSection id="price" />
       </div>

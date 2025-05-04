@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Users, Briefcase } from "lucide-react";
+import { Users, Briefcase, User } from "lucide-react";
 
 interface AudienceTypeProps {
   icon: React.ReactNode;
@@ -9,7 +9,7 @@ interface AudienceTypeProps {
 
 const AudienceType: React.FC<AudienceTypeProps> = ({ icon, title }) => {
   return (
-    <div className="flex flex-col items-center justify-center p-6">
+    <div className="flex flex-col items-center justify-center p-6 hover:bg-neuro-lightPurple/10 transition-colors rounded-xl">
       <div className="w-16 h-16 bg-neuro-lightPurple/30 rounded-full flex items-center justify-center mb-4">
         <div className="text-neuro-purple">
           {icon}
@@ -23,10 +23,10 @@ const AudienceType: React.FC<AudienceTypeProps> = ({ icon, title }) => {
 const AudienceSection = () => {
   const audienceTypes = [
     { title: "Recrutadores", icon: <Users size={28} /> },
-    { title: "Analistas de RH", icon: <Briefcase size={28} /> },
-    { title: "Gestores", icon: <Users size={28} /> },
+    { title: "Analistas de RH", icon: <User size={28} /> },
+    { title: "Gestores", icon: <Briefcase size={28} /> },
     { title: "Líderes", icon: <Users size={28} /> },
-    { title: "Assistentes", icon: <Users size={28} /> },
+    { title: "Assistentes", icon: <User size={28} /> },
     { title: "Consultores", icon: <Briefcase size={28} /> },
   ];
 
@@ -44,7 +44,7 @@ const AudienceSection = () => {
         </div>
         
         <p className="text-xl text-center mt-12 font-medium">
-          Se você trabalha com gente, esse curso foi feito pra você.
+          Se você trabalha com gente e quer usar IA para se destacar, esse curso foi feito pra você.
         </p>
       </div>
     </section>

@@ -11,7 +11,8 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
   const benefits = [
     "Aulas práticas e diretas ao ponto",
     "Ferramentas prontas pra aplicar no trabalho",
-    "E um ano à frente de quem ainda nem começou a pensar em IA"
+    "Conhecimento que se paga em resultados imediatos",
+    "Um ano à frente de quem ainda nem começou a pensar em IA"
   ];
 
   return (
@@ -33,7 +34,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
           </p>
           
           <p className="text-lg mb-8">
-            E por apenas <span className="font-bold text-neuro-lightPurple">R$197</span> (menos do que uma pizza por mês durante um semestre), você garante:
+            E por apenas <span className="font-bold text-neuro-lightPurple">R$197</span> (menos do que um jantar de pizza), você adquire conhecimento que pode usar todos os dias no trabalho. Este curso se paga rapidamente através dos resultados que você vai entregar.
           </p>
           
           <ul className="space-y-4 mb-12">
@@ -53,15 +54,27 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
               <p className="text-neuro-lightPurple">à vista ou em até 12x com juros no cartão via formulário de inscrição.</p>
             </div>
             
-            <a 
-              href="https://form.jotform.com/251227913997670" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <Button className="btn-primary text-lg">
-                Quero sair na frente
-              </Button>
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href="https://form.jotform.com/251227913997670" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button className="btn-primary text-lg w-full sm:w-auto">
+                  Quero acesso agora
+                </Button>
+              </a>
+              
+              <a 
+                href="https://form.jotform.com/251227913997670" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-transparent border-2 border-white hover:bg-white/10 text-lg w-full sm:w-auto">
+                  Sim, quero sair na frente!
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
