@@ -40,20 +40,14 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
           </div>
 
           <div className="flex-1 relative">
-            <div className="relative z-10">
-              <div className="w-full h-72 md:h-96 bg-neuro-lightPurple/30 rounded-2xl flex items-center justify-center shadow-xl animate-float">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-36 h-36 md:w-48 md:h-48 bg-neuro-purple/90 rounded-full flex items-center justify-center text-white font-bold text-xl md:text-3xl">
-                    NeuroRH
-                  </div>
-                </div>
-                <div className="absolute top-6 left-6 w-16 h-16 bg-neuro-blue/30 rounded-lg"></div>
-                <div className="absolute bottom-10 right-10 w-20 h-20 bg-neuro-purple/20 rounded-full"></div>
-                <div className="absolute top-1/2 right-6 w-8 h-8 bg-neuro-blue/40 rounded-md"></div>
-                <div className="absolute bottom-6 left-1/4 w-12 h-12 bg-neuro-lightPurple/50 rounded-lg"></div>
-              </div>
+            <div className="relative z-10 flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/230283b6-966e-4fc1-ad0a-5c4ff6e269d6.png" 
+                alt="NeuroRH Logo" 
+                className="w-full max-w-md animate-float"
+              />
+              <div className="absolute top-4 right-4 w-full h-full bg-neuro-blue/10 rounded-full -z-10 transform translate-x-4 translate-y-4"></div>
             </div>
-            <div className="absolute top-4 right-4 w-full h-full bg-neuro-blue/10 rounded-2xl -z-10 transform translate-x-4 translate-y-4"></div>
           </div>
         </div>
       </div>

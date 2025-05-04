@@ -27,8 +27,12 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-8 md:mb-0">
-            <h2 className="text-2xl font-bold mb-2">NeuroRH</h2>
+          <div className="mb-8 md:mb-0 flex flex-col items-center md:items-start">
+            <img 
+              src="/lovable-uploads/230283b6-966e-4fc1-ad0a-5c4ff6e269d6.png" 
+              alt="NeuroRH Logo" 
+              className="w-36 h-36 mb-4"
+            />
             <p className="text-neuro-gray">
               Inteligência Artificial para RHs que querem sair na frente
             </p>

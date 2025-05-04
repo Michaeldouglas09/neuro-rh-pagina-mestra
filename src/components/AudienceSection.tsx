@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Users, Briefcase, User } from "lucide-react";
+import { Users, Briefcase, User, Award, GraduationCap, UsersRound } from "lucide-react";
 
 interface AudienceTypeProps {
   icon: React.ReactNode;
@@ -25,9 +25,9 @@ const AudienceSection = () => {
     { title: "Recrutadores", icon: <Users size={28} /> },
     { title: "Analistas de RH", icon: <User size={28} /> },
     { title: "Gestores", icon: <Briefcase size={28} /> },
-    { title: "Líderes", icon: <Users size={28} /> },
-    { title: "Assistentes", icon: <User size={28} /> },
-    { title: "Consultores", icon: <Briefcase size={28} /> },
+    { title: "Líderes", icon: <UsersRound size={28} /> },
+    { title: "Assistentes", icon: <Award size={28} /> },
+    { title: "Consultores", icon: <GraduationCap size={28} /> },
   ];
 
   return (
