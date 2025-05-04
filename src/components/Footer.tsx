@@ -52,11 +52,11 @@ const Footer = () => {
             <div className="flex items-center gap-2 text-neuro-gray hover:text-white transition-colors">
               <Instagram size={16} />
               <a 
-                href="https://instagram.com/neuro.rh" 
+                href="https://instagram.com/michaeldouglascarreira" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                @neuro.rh
+                @michaeldouglascarreira
               </a>
             </div>
             
