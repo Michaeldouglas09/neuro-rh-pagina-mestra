@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Users, FileText, Zap, Calendar, Award, Balance, Pen, Brain, Rocket, Certificate } from "lucide-react";
+import { Users, FileText, Zap, Calendar, Award, Scale, Pen, Brain, Rocket, Award as Certificate } from "lucide-react";
 
 interface BonusItemProps {
   icon: React.ReactNode;
@@ -33,7 +33,7 @@ const BonusSection = () => {
       description: "Uma comunidade ativa que compartilha novidades, vagas, ferramentas e insights sobre IA toda semana."
     },
     {
-      icon: <Balance size={24} />,
+      icon: <Scale size={24} />,
       emoji: "⚖️",
       title: "Assistente Legal de IA",
       description: "Analisa contratos de período de experiência, identifica cláusulas arriscadas e sugere alternativas mais seguras."
