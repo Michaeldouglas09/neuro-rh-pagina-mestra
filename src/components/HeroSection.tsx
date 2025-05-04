@@ -13,7 +13,7 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 text-center md:text-left">
             <div className="inline-block bg-neuro-purple/10 text-neuro-purple font-medium px-4 py-2 rounded-full mb-6">
-              Curso online • 100% prático
+              Curso Presencial • 100% prático
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-neuro-dark">
               <span className="text-neuro-purple">Use IA no seu RH</span> antes que o mercado te substitua.
