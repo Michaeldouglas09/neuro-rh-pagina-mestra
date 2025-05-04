@@ -9,6 +9,7 @@ import PriceSection from '@/components/PriceSection';
 import VideoSection from '@/components/VideoSection';
 import AuthorSection from '@/components/AuthorSection';
 import Footer from '@/components/Footer';
+import ModulesSection from '@/components/ModulesSection';
 
 const Index = () => {
   const priceRef = useRef<HTMLDivElement>(null);
@@ -22,6 +23,7 @@ const Index = () => {
       <HeroSection scrollToPrice={scrollToPrice} />
       <AudienceSection />
       <LearnSection />
+      <ModulesSection />
       <TestimonialsSection />
       <BonusSection />
       <AuthorSection />
