@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import NeuroRHLogo from './NeuroRHLogo';
 
 interface HeroProps {
   scrollToPrice: () => void;
@@ -41,11 +42,7 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
 
           <div className="flex-1 relative">
             <div className="relative z-10 flex items-center justify-center">
-              <img 
-                src="/lovable-uploads/230283b6-966e-4fc1-ad0a-5c4ff6e269d6.png" 
-                alt="NeuroRH Logo" 
-                className="w-full max-w-md animate-float"
-              />
+              <NeuroRHLogo size="lg" className="animate-float" />
               <div className="absolute top-4 right-4 w-full h-full bg-neuro-blue/10 rounded-full -z-10 transform translate-x-4 translate-y-4"></div>
             </div>
           </div>

@@ -120,4 +120,13 @@
   .container-custom {
     @apply mx-auto max-w-7xl px-6 lg:px-8;
   }
+  
+  .neuro-logo-glow {
+    filter: drop-shadow(0 0 10px rgba(155, 135, 245, 0.5));
+    transition: filter 0.3s ease;
+  }
+  
+  .neuro-logo-glow:hover {
+    filter: drop-shadow(0 0 15px rgba(155, 135, 245, 0.8));
+  }
 }
