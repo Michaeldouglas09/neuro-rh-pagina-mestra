@@ -23,7 +23,7 @@ const ModuleContent: React.FC<ModuleContentProps> = ({
       <button 
         className={cn(
           "w-full text-left p-5 flex items-center justify-between font-medium text-lg", 
-          isOpen ? "bg-neuro-lightPurple/20" : "bg-white"
+          isOpen ? "bg-neuro-lightPurple/20" : "bg-neuro-dark text-white"
         )}
         onClick={toggleModule}
       >
@@ -33,7 +33,7 @@ const ModuleContent: React.FC<ModuleContentProps> = ({
           </span>
           {title}
         </span>
-        {isOpen ? <ChevronUp className="text-neuro-purple" /> : <ChevronDown />}
+        {isOpen ? <ChevronUp className="text-neuro-purple" /> : <ChevronDown className="text-white" />}
       </button>
       
       {isOpen && (
@@ -107,7 +107,7 @@ const ModulesSection = () => {
   ];
 
   return (
-    <section className="bg-neuro-dark text-white section-padding">
+    <section className="bg-neuro-purple text-white section-padding">
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
           Conteúdo do Curso
