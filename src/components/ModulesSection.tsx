@@ -37,11 +37,11 @@ const ModuleContent: React.FC<ModuleContentProps> = ({
       </button>
       
       {isOpen && (
-        <div className="p-5 bg-white/50">
+        <div className="p-5 bg-neuro-dark text-white">
           <ul className="space-y-3">
             {lessons.map((lesson, idx) => (
               <li key={idx} className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-neuro-purple"></span>
+                <span className="w-2 h-2 rounded-full bg-neuro-lightPurple"></span>
                 <span>{lesson}</span>
               </li>
             ))}
