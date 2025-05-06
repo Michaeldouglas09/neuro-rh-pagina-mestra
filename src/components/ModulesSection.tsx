@@ -57,57 +57,57 @@ const ModulesSection = () => {
   
   const modules = [
     {
-      title: "Welcome to NeuroRH",
+      title: "Boas-vindas ao NeuroRH",
       lessons: [
-        "Meet your instructor and course roadmap",
-        "How to make the most of the NeuroRH method",
-        "Join our community and set your intention"
+        "Conheça seu instrutor e o roadmap do curso",
+        "Como aproveitar ao máximo o método NeuroRH",
+        "Participe da nossa comunidade e defina sua intenção"
       ]
     },
     {
-      title: "ChatGPT for HR – Foundations",
+      title: "ChatGPT para RH – Fundamentos",
       lessons: [
-        "How ChatGPT works in simple terms",
-        "Free vs Paid version: which one do you really need?",
-        "Privacy, ethics, and risks when using AI at work"
+        "Como o ChatGPT funciona em termos simples",
+        "Versão gratuita vs. Paga: qual você realmente precisa?",
+        "Privacidade, ética e riscos ao usar IA no trabalho"
       ]
     },
     {
-      title: "Hands-on with ChatGPT – Practical Prompts",
+      title: "Mãos à obra com ChatGPT – Prompts Práticos",
       lessons: [
-        "Writing powerful prompts for HR tasks",
-        "Creating job descriptions and candidate profiles",
-        "Internal communication, onboarding, and feedback models"
+        "Escrevendo prompts poderosos para tarefas de RH",
+        "Criando descrições de cargo e perfis de candidatos",
+        "Comunicação interna, onboarding e modelos de feedback"
       ]
     },
     {
-      title: "Screening & Decision-Making with AI",
+      title: "Triagem & Tomada de Decisão com IA",
       lessons: [
-        "Resume triage and candidate ranking",
-        "Creating interview guides with AI",
-        "Decision-making with prompt templates"
+        "Triagem de currículos e classificação de candidatos",
+        "Criando guias de entrevista com IA",
+        "Tomada de decisão com templates de prompts"
       ]
     },
     {
-      title: "Automations for HR (No-code intro)",
+      title: "Automações para RH (introdução No-code)",
       lessons: [
-        "What is Make.com and how it works",
-        "Basic flows for HR routines",
-        "Case: Automating a candidate follow-up email"
+        "O que é Make.com e como funciona",
+        "Fluxos básicos para rotinas de RH",
+        "Caso: Automatizando um email de acompanhamento de candidatos"
       ]
     },
     {
-      title: "Tools, Updates & What's Next",
+      title: "Ferramentas, Atualizações & Próximos Passos",
       lessons: [
-        "Top AI tools to complement ChatGPT in HR",
-        "How to stay updated with AI without going crazy",
-        "Practical challenges to apply what you've learned"
+        "Principais ferramentas de IA para complementar o ChatGPT no RH",
+        "Como se manter atualizado com IA sem enlouquecer",
+        "Desafios práticos para aplicar o que você aprendeu"
       ]
     }
   ];
 
   return (
-    <section className="bg-neuro-lightGray section-padding">
+    <section className="bg-neuro-dark text-white section-padding">
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
           Conteúdo do Curso

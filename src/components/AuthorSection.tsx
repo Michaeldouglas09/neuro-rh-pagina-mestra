@@ -12,10 +12,12 @@ const AuthorSection = () => {
           </h2>
           
           <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-48 h-48 bg-neuro-lightPurple/30 rounded-full flex items-center justify-center relative">
-              <div className="absolute inset-3 rounded-full bg-gradient-to-br from-neuro-purple to-neuro-blue flex items-center justify-center text-white font-bold text-5xl">
-                MD
-              </div>
+            <div className="w-48 h-48 rounded-full overflow-hidden">
+              <img 
+                src="/lovable-uploads/b55a4775-4368-4980-b99b-51240957c710.png" 
+                alt="Michael Douglas RH" 
+                className="w-full h-full object-cover"
+              />
             </div>
             
             <div className="flex-1">
@@ -30,6 +32,7 @@ const AuthorSection = () => {
                 Especialista certificado em RH com certificação em IA da Amazon (AWS). 
                 Especializado em desenvolvimento de lideranças e treinamentos práticos, 
                 combinando tecnologia com práticas de RH centradas no ser humano.
+                Eleito Jovem Talento de RH em 2023 pela Top OF Mind RH.
               </p>
               
               <div className="flex flex-wrap gap-2">
@@ -41,6 +44,9 @@ const AuthorSection = () => {
                 </span>
                 <span className="px-3 py-1 bg-neuro-lightPurple/30 text-neuro-purple rounded-full text-sm font-medium">
                   +10 anos em RH
+                </span>
+                <span className="px-3 py-1 bg-neuro-lightPurple/30 text-neuro-purple rounded-full text-sm font-medium">
+                  Jovem Talento RH 2023
                 </span>
               </div>
             </div>
