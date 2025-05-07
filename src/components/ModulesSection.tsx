@@ -57,7 +57,7 @@ const ModulesSection = () => {
   
   const modules = [
     {
-      title: "Boas-vindas ao NeuroRH",
+      title: "Descobrindo o Superpoder da IA no RH",
       lessons: [
         "Conheça seu instrutor e o roadmap do curso",
         "Como aproveitar ao máximo o método NeuroRH",
@@ -65,7 +65,7 @@ const ModulesSection = () => {
       ]
     },
     {
-      title: "ChatGPT para RH – Fundamentos",
+      title: "Automatizando Como um Ninja",
       lessons: [
         "Como o ChatGPT funciona em termos simples",
         "Versão gratuita vs. Paga: qual você realmente precisa?",
@@ -73,7 +73,7 @@ const ModulesSection = () => {
       ]
     },
     {
-      title: "Mãos à obra com ChatGPT – Prompts Práticos",
+      title: "O Futuro Agora: Relatórios em Segundos",
       lessons: [
         "Escrevendo prompts poderosos para tarefas de RH",
         "Criando descrições de cargo e perfis de candidatos",
@@ -81,7 +81,7 @@ const ModulesSection = () => {
       ]
     },
     {
-      title: "Triagem & Tomada de Decisão com IA",
+      title: "ChatGPT na Prática: Aplicando no Recrutamento e Seleção",
       lessons: [
         "Triagem de currículos e classificação de candidatos",
         "Criando guias de entrevista com IA",
@@ -89,7 +89,7 @@ const ModulesSection = () => {
       ]
     },
     {
-      title: "Automações para RH (introdução No-code)",
+      title: "Proteção de Dados e Ética no Uso de IA no RH",
       lessons: [
         "O que é Make.com e como funciona",
         "Fluxos básicos para rotinas de RH",

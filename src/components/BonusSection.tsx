@@ -29,20 +29,20 @@ const BonusSection = () => {
     {
       icon: <Users size={24} />,
       emoji: "🎯",
-      title: "Grupo VIP de RHs visionários",
-      description: "Uma comunidade ativa que compartilha novidades, vagas, ferramentas e insights sobre IA toda semana."
+      title: "Grupo Colaborativo Exclusivo",
+      description: "Onde você vai trocar ideias com outros RHs como um super time de heróis da produtividade."
     },
     {
       icon: <Scale size={24} />,
       emoji: "⚖️",
-      title: "Assistente Legal de IA",
-      description: "Analisa contratos de período de experiência, identifica cláusulas arriscadas e sugere alternativas mais seguras."
+      title: "Assistente de Análise de Contratos",
+      description: "Porque ninguém merece um contrato cheio de surpresas, né?"
     },
     {
       icon: <Pen size={24} />,
       emoji: "✍️",
-      title: "CopyRH: seu assistente de redação",
-      description: "Um assistente de copywriting baseado em IA para posts, emails, feedbacks, comunicações internas e mais — pensa como você e escreve melhor."
+      title: "Assistente Copywriter",
+      description: "Já imaginou ter um assistente pessoal que sabe o que você quer escrever antes de você mesmo pensar?"
     },
     {
       icon: <Brain size={24} />,
@@ -53,14 +53,14 @@ const BonusSection = () => {
     {
       icon: <Rocket size={24} />,
       emoji: "🚀",
-      title: "Acesso a atualizações do ChatGPT",
-      description: "Guias práticos e exemplos de uso em RH para cada nova atualização da plataforma."
+      title: "Atualização Contínua",
+      description: "Sempre que a IA ganhar uma nova habilidade, você será o primeiro a saber!"
     },
     {
       icon: <Calendar size={24} />,
       emoji: "🎉",
-      title: "Ingresso para o NeuroRH Summit",
-      description: "Um evento exclusivo e presencial para nossa comunidade em dezembro — networking, troca de experiências e conteúdo de alto nível."
+      title: "Evento Exclusivo em Dezembro",
+      description: "Acesso VIP para aprender mais com especialistas e trocar experiências!"
     },
     {
       icon: <Certificate size={24} />,

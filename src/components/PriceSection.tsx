@@ -9,9 +9,9 @@ interface PriceSectionProps {
 
 const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
   const benefits = [
-    "Aulas práticas e diretas ao ponto",
-    "Ferramentas prontas pra aplicar no trabalho",
-    "Conhecimento que se paga em resultados imediatos",
+    "Gerar relatórios em minutos: Porque quem tem tempo para fazer isso manualmente, né? 😉",
+    "Triagem de currículos: O ChatGPT vai ser seu assistente pessoal (mais eficiente que qualquer ser humano).",
+    "Automatização de processos: Fique mais rápido, inteligente e, claro, mais valioso para a empresa.",
     "Um ano à frente de quem ainda nem começou a pensar em IA"
   ];
 

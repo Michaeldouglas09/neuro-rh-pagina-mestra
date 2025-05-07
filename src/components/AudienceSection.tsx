@@ -44,7 +44,7 @@ const AudienceSection = () => {
         </div>
         
         <p className="text-xl text-center mt-12 font-medium">
-          Se você trabalha com gente e quer usar IA para se destacar, esse curso foi feito pra você.
+          Se você é <strong>recrutador</strong>, <strong>analista</strong> ou <strong>líder de RH</strong>, esse curso vai fazer você se sentir como o herói do escritório. Já pensou em eliminar horas de trabalho manual com o poder da inteligência artificial? Pois é, esse curso é pra você! 💡
         </p>
       </div>
     </section>
