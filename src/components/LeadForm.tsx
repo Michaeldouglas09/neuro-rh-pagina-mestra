@@ -7,10 +7,11 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { getRegionInfo } from '@/utils/dddMap';
-import { Phone } from 'lucide-react';
+import { Phone, Mail, User } from 'lucide-react';
 
 const formSchema = z.object({
   firstName: z.string().min(2, "Nome precisa ter pelo menos 2 caracteres"),
+  email: z.string().email("Insira um e-mail válido"),
   phone: z.string().min(11, "Telefone precisa ter 11 dígitos com DDD")
 });
 
@@ -24,6 +25,7 @@ const LeadForm: React.FC = () => {
     resolver: zodResolver(formSchema),
     defaultValues: {
       firstName: "",
+      email: "",
       phone: ""
     }
   });
@@ -50,12 +52,13 @@ const LeadForm: React.FC = () => {
 
   function onSubmit(data: FormValues) {
     console.log("Formulário enviado:", data);
-    alert(`Obrigado ${data.firstName}! Entraremos em contato pelo número ${data.phone}`);
+    alert(`Obrigado ${data.firstName}! Seu e-book será enviado para ${data.email}`);
   }
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-md border border-neuro-lightPurple/30">
-      <h3 className="text-xl font-semibold text-neuro-dark mb-4">Quero saber mais sobre o curso</h3>
+      <h3 className="text-xl font-semibold text-neuro-dark mb-4">Preencha e receba sua pílula de conhecimento</h3>
+      <p className="text-sm text-gray-600 mb-6">Para você ficar com o gostinho, vou disponibilizar um e-book com prompts poderosos para o RH.</p>
       
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
@@ -66,7 +69,27 @@ const LeadForm: React.FC = () => {
               <FormItem>
                 <FormLabel>Qual seu primeiro nome?</FormLabel>
                 <FormControl>
-                  <Input placeholder="Seu nome" {...field} />
+                  <div className="relative">
+                    <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-neuro-gray" />
+                    <Input placeholder="Seu nome" className="pl-10" {...field} />
+                  </div>
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Seu e-mail</FormLabel>
+                <FormControl>
+                  <div className="relative">
+                    <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-neuro-gray" />
+                    <Input placeholder="exemplo@email.com" className="pl-10" {...field} />
+                  </div>
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -110,7 +133,7 @@ const LeadForm: React.FC = () => {
             type="submit" 
             className="w-full bg-neuro-purple hover:bg-neuro-darkPurple"
           >
-            Quero me inscrever
+            Receber e-book grátis
           </Button>
         </form>
       </Form>
