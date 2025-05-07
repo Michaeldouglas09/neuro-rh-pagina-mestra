@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import NeuroRHLogo from './NeuroRHLogo';
+import LeadForm from './LeadForm';
 
 interface HeroProps {
   scrollToPrice: () => void;
@@ -40,10 +41,14 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
             </div>
           </div>
 
-          <div className="flex-1 relative">
-            <div className="relative z-10 flex items-center justify-center">
-              <NeuroRHLogo size="lg" className="animate-float" />
-              <div className="absolute top-4 right-4 w-full h-full bg-neuro-blue/10 rounded-full -z-10 transform translate-x-4 translate-y-4"></div>
+          <div className="flex-1">
+            <div className="flex flex-col gap-8">
+              <div className="relative z-10 flex items-center justify-center mb-4">
+                <NeuroRHLogo size="md" className="animate-float" />
+                <div className="absolute top-4 right-4 w-full h-full bg-neuro-blue/10 rounded-full -z-10 transform translate-x-4 translate-y-4"></div>
+              </div>
+              
+              <LeadForm />
             </div>
           </div>
         </div>
