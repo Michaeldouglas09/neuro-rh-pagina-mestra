@@ -8,6 +8,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { getRegionInfo } from '@/utils/dddMap';
 import { Phone, Mail, User } from 'lucide-react';
+import { toast } from "@/components/ui/sonner";
 
 const formSchema = z.object({
   firstName: z.string().min(2, "Nome precisa ter pelo menos 2 caracteres"),
@@ -52,7 +53,12 @@ const LeadForm: React.FC = () => {
 
   function onSubmit(data: FormValues) {
     console.log("Formulário enviado:", data);
-    alert(`Obrigado ${data.firstName}! Seu e-book será enviado para ${data.email}`);
+    
+    // Show toast notification
+    toast.success(`Obrigado ${data.firstName}! Seu e-book será enviado para ${data.email}`);
+    
+    // Redirect to Google Drive
+    window.open("https://drive.google.com/drive/u/1/folders/1A2v77Y_k0qhXW_LWu7D6EcJbSaXK4s0K", "_blank");
   }
 
   return (
