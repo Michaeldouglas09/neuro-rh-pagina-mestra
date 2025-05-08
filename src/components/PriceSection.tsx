@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Check, Strikethrough } from "lucide-react";
+import { Check } from "lucide-react";
 
 interface PriceSectionProps {
   id: string;
@@ -49,17 +49,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
           
           <div className="text-center">
             <div className="mb-8">
-              <div className="flex items-center justify-center gap-3">
-                <div className="relative">
-                  <p className="text-gray-400 text-2xl md:text-3xl font-medium opacity-80 relative">
-                    R$497
-                    <span className="absolute inset-0 flex items-center justify-center">
-                      <Strikethrough className="text-gray-400" />
-                    </span>
-                  </p>
-                </div>
-                <p className="text-3xl md:text-4xl font-bold text-white">R$197</p>
-              </div>
+              <p className="text-3xl md:text-4xl font-bold text-white">R$197</p>
               <p className="text-neuro-lightPurple">à vista ou em até 12x com juros no cartão via formulário de inscrição.</p>
             </div>
             
