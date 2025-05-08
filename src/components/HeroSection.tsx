@@ -18,7 +18,13 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
               Curso Presencial • 100% prático
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-neuro-dark">
-              <span className="text-neuro-purple">NeuroRH: O Curso de Inteligência Artificial para RHs que querem sair na frente</span> (e deixar a concorrência para trás!)
+              <span className="text-neuro-purple">NeuroRH: O Curso de IA para RHs</span>
+              <span className="block mt-2 text-3xl md:text-4xl lg:text-5xl">
+                que querem sair na frente
+                <span className="block mt-1 text-2xl md:text-3xl lg:text-4xl">
+                  (e deixar a concorrência para trás!)
+                </span>
+              </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-10">
               Aprenda a usar a IA como um superpoder no seu trabalho – Mais rápido, mais eficiente, mais inteligente!
