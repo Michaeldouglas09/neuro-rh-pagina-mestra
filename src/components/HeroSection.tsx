@@ -20,7 +20,7 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-neuro-dark">
               <span className="text-neuro-purple">NeuroRH: O Curso de IA para RHs</span>
               <span className="block mt-2 text-3xl md:text-4xl lg:text-5xl">
-                que querem sair na frente <span className="text-2xl md:text-3xl lg:text-4xl">(e deixar a concorrência para trás!)</span>
+                Que querem sair na frente
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-10">
