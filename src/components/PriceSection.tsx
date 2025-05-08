@@ -23,8 +23,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
         </h2>
         
         <p className="text-xl text-center max-w-2xl mx-auto mb-12">
-          A pergunta não é quanto custa. A pergunta certa é:
-          <span className="block mt-4 font-medium text-2xl">Quanto custa continuar fazendo tudo do jeito antigo?</span>
+          <span className="font-medium text-2xl">Quanto custa continuar fazendo tudo do jeito antigo?</span>
         </p>
         
         <div className="bg-gradient-to-br from-neuro-purple/20 to-neuro-blue/20 rounded-3xl p-6 md:p-12 max-w-4xl mx-auto">
@@ -59,7 +58,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
                     </span>
                   </p>
                 </div>
-                <p className="text-3xl md:text-4xl font-bold">R$197</p>
+                <p className="text-3xl md:text-4xl font-bold text-white">R$197</p>
               </div>
               <p className="text-neuro-lightPurple">à vista ou em até 12x com juros no cartão via formulário de inscrição.</p>
             </div>
