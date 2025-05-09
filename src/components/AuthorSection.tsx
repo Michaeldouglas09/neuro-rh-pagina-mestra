@@ -12,12 +12,12 @@ const AuthorSection = () => {
                 <img 
                   src="/lovable-uploads/2e1f6f69-650a-4d9e-b98e-a7a8210a94a9.png" 
                   alt="Foto do Instrutor" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               </div>
               <div className="absolute bottom-4 left-4 z-20 p-6">
-                <h3 className="text-2xl font-bold text-white mb-1">Allan Rodrigues</h3>
+                <h3 className="text-2xl font-bold text-white mb-1">Michael Douglas</h3>
                 <p className="text-neuro-lightPurple">Especialista em IA para RH</p>
               </div>
               

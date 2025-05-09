@@ -26,16 +26,6 @@ const NeuroRHLogo: React.FC<NeuroRHLogoProps> = ({
           filter: "drop-shadow(0px 4px 8px rgba(96, 66, 236, 0.3))"
         }}
       />
-      
-      {/* Gradiente de cor aplicado como overlay */}
-      <div 
-        className="absolute inset-0 mix-blend-color" 
-        style={{
-          background: "linear-gradient(135deg, #6042EC 0%, #9B87F5 100%)",
-          opacity: 0.85,
-          borderRadius: "50%"
-        }}
-      ></div>
     </div>
   );
 };
