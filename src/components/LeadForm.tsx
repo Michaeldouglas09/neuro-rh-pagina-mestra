@@ -55,16 +55,16 @@ const LeadForm: React.FC = () => {
     console.log("Formulário enviado:", data);
     
     // Show toast notification
-    toast.success(`Obrigado ${data.firstName}! Seu e-book será enviado para ${data.email}`);
+    toast.success(`Obrigado ${data.firstName}! Entraremos em contato em breve.`);
     
-    // Redirect to Google Drive
-    window.open("https://drive.google.com/drive/u/1/folders/1A2v77Y_k0qhXW_LWu7D6EcJbSaXK4s0K", "_blank");
+    // Redirect to form
+    window.open("https://form.jotform.com/251227913997670", "_blank");
   }
 
   return (
-    <div className="bg-white p-6 rounded-xl shadow-md border border-neuro-lightPurple/30">
-      <h3 className="text-xl font-semibold text-neuro-dark mb-4">Preencha e receba sua pílula de conhecimento</h3>
-      <p className="text-sm text-gray-600 mb-6">Para você ficar com o gostinho, vou disponibilizar um e-book com prompts poderosos para o RH.</p>
+    <div className="bg-white p-6 rounded-xl">
+      <h3 className="text-xl font-semibold text-neuro-dark mb-4">Garanta seu lugar no treinamento</h3>
+      <p className="text-sm text-gray-600 mb-6">Preencha para receber todas as informações e garantir sua vaga com desconto especial.</p>
       
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
@@ -73,7 +73,7 @@ const LeadForm: React.FC = () => {
             name="firstName"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Qual seu primeiro nome?</FormLabel>
+                <FormLabel>Nome</FormLabel>
                 <FormControl>
                   <div className="relative">
                     <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-neuro-gray" />
@@ -90,7 +90,7 @@ const LeadForm: React.FC = () => {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Seu e-mail</FormLabel>
+                <FormLabel>E-mail</FormLabel>
                 <FormControl>
                   <div className="relative">
                     <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-neuro-gray" />
@@ -107,7 +107,7 @@ const LeadForm: React.FC = () => {
             name="phone"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Seu WhatsApp</FormLabel>
+                <FormLabel>WhatsApp</FormLabel>
                 <FormControl>
                   <div className="relative">
                     <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 text-neuro-gray" />
@@ -139,7 +139,7 @@ const LeadForm: React.FC = () => {
             type="submit" 
             className="w-full bg-neuro-purple hover:bg-neuro-darkPurple"
           >
-            Receber e-book grátis
+            Quero garantir minha vaga
           </Button>
         </form>
       </Form>

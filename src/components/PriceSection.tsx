@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { Check, Calendar, MapPin, Clock } from "lucide-react";
 
 interface PriceSectionProps {
   id: string;
@@ -14,65 +14,98 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
     "Automatização de processos: Fique mais rápido, inteligente e, claro, mais valioso para a empresa.",
     "Um ano à frente de quem ainda nem começou a pensar em IA"
   ];
+  
+  const eventDetails = [
+    { icon: <Calendar className="text-neuro-purple" />, text: "20 de Junho de 2025" },
+    { icon: <MapPin className="text-neuro-purple" />, text: "Hotel Premium - Centro" },
+    { icon: <Clock className="text-neuro-purple" />, text: "Das 9h às 18h" }
+  ];
 
   return (
-    <section id={id} className="bg-neuro-dark text-white section-padding">
+    <section id={id} className="bg-gradient-to-b from-neuro-dark to-black text-white section-padding">
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-          Quanto custa sair na frente?
+          Invista no seu futuro profissional
         </h2>
         
-        <p className="text-xl text-center max-w-2xl mx-auto mb-12">
-          <span className="font-medium text-2xl">Quanto custa continuar fazendo tudo do jeito antigo?</span>
-        </p>
-        
-        <div className="bg-gradient-to-br from-neuro-purple/20 to-neuro-blue/20 rounded-3xl p-6 md:p-12 max-w-4xl mx-auto">
-          <p className="text-xl mb-6">
-            O NeuroRH não é só mais um curso.
-            <span className="block font-medium">É o que separa os RHs operacionais dos RHs que lideram a transformação digital.</span>
-          </p>
-          
-          <p className="text-lg mb-8">
-            E por apenas <span className="font-bold text-neuro-lightPurple">R$197</span> (menos do que um jantar de pizza), você adquire conhecimento que pode usar todos os dias no trabalho. Este curso se paga rapidamente através dos resultados que você vai entregar.
-          </p>
-          
-          <ul className="space-y-4 mb-12">
-            {benefits.map((benefit, index) => (
-              <li key={index} className="flex items-center gap-3">
-                <div className="p-1 bg-neuro-lightPurple/30 rounded-full text-neuro-lightPurple">
-                  <Check size={16} />
-                </div>
-                <span>{benefit}</span>
-              </li>
-            ))}
-          </ul>
-          
-          <div className="text-center">
-            <div className="mb-8">
-              <p className="text-3xl md:text-4xl font-bold text-white">R$197</p>
-              <p className="text-neuro-lightPurple">à vista ou em até 12x com juros no cartão via formulário de inscrição.</p>
+        <div className="flex flex-col md:flex-row gap-10 items-center justify-center">
+          <div className="w-full md:w-1/2 lg:w-2/5">
+            <div className="bg-gradient-to-br from-neuro-purple/20 to-neuro-blue/20 backdrop-blur-sm rounded-3xl p-6 md:p-8">
+              <div className="mb-6">
+                <h3 className="text-2xl font-semibold mb-2">Detalhes do Evento</h3>
+                <div className="h-1 w-20 bg-neuro-purple mb-4"></div>
+                
+                <ul className="space-y-4">
+                  {eventDetails.map((detail, index) => (
+                    <li key={index} className="flex items-center gap-3">
+                      <div className="p-2 bg-white/10 rounded-full">
+                        {detail.icon}
+                      </div>
+                      <span className="text-lg">{detail.text}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              
+              <div className="mb-8">
+                <h3 className="text-2xl font-semibold mb-2">O que você vai aprender</h3>
+                <div className="h-1 w-20 bg-neuro-purple mb-4"></div>
+                
+                <ul className="space-y-4">
+                  {benefits.map((benefit, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <div className="p-1 mt-1 bg-neuro-lightPurple/30 rounded-full text-neuro-lightPurple">
+                        <Check size={16} />
+                      </div>
+                      <span>{benefit}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="https://form.jotform.com/251227913997670" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <Button className="btn-primary text-lg w-full sm:w-auto">
-                  Quero acesso agora
-                </Button>
-              </a>
+          </div>
+          
+          <div className="w-full md:w-1/2 lg:w-2/5">
+            <div className="bg-white text-neuro-dark rounded-3xl p-8 shadow-lg">
+              <div className="text-center mb-6">
+                <p className="text-lg font-medium text-neuro-purple">Valor do Investimento</p>
+                <div className="flex items-center justify-center gap-2 mb-2">
+                  <p className="text-4xl font-bold">R$197</p>
+                </div>
+                <p className="text-sm text-gray-600">Vagas limitadas - Turma exclusiva</p>
+              </div>
+              
+              <div className="border-t border-gray-200 my-6"></div>
+              
+              <div className="space-y-4 mb-6">
+                <div className="flex justify-between items-center">
+                  <span className="font-medium">Duração:</span>
+                  <span>1 dia intensivo (8h)</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="font-medium">Inclui:</span>
+                  <span>Material + Certificado</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="font-medium">Bônus:</span>
+                  <span>E-book com prompts</span>
+                </div>
+              </div>
               
               <a 
                 href="https://form.jotform.com/251227913997670" 
                 target="_blank" 
                 rel="noopener noreferrer"
+                className="block w-full"
               >
-                <Button className="bg-transparent border-2 border-white hover:bg-white/10 text-lg w-full sm:w-auto">
-                  Sim, quero sair na frente!
+                <Button className="w-full bg-neuro-purple hover:bg-neuro-darkPurple text-lg py-6">
+                  Garanta sua vaga agora
                 </Button>
               </a>
+              
+              <p className="text-center text-sm text-gray-500 mt-4">
+                À vista ou em até 12x com juros no cartão via formulário de inscrição
+              </p>
             </div>
           </div>
         </div>

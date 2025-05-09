@@ -1,53 +1,57 @@
 
 import React from 'react';
-import { Award } from "lucide-react";
 
 const AuthorSection = () => {
   return (
-    <section className="bg-white section-padding">
+    <section className="py-20 bg-gradient-to-b from-neuro-lightGray to-white">
       <div className="container-custom">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-            Quem criou este curso?
-          </h2>
-          
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-48 h-48 rounded-full overflow-hidden">
-              <img 
-                src="/lovable-uploads/b55a4775-4368-4980-b99b-51240957c710.png" 
-                alt="Michael Douglas RH" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-4">
-                <h3 className="text-2xl font-bold">Michael Douglas RH</h3>
-                <div className="p-1 bg-neuro-lightPurple/30 rounded-full text-neuro-purple">
-                  <Award size={18} />
-                </div>
+        <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="w-full md:w-1/2">
+            <div className="relative">
+              <div className="relative z-10 h-[500px] rounded-2xl overflow-hidden shadow-xl">
+                <img 
+                  src="/lovable-uploads/2e1f6f69-650a-4d9e-b98e-a7a8210a94a9.png" 
+                  alt="Foto do Instrutor" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+              </div>
+              <div className="absolute bottom-4 left-4 z-20 p-6">
+                <h3 className="text-2xl font-bold text-white mb-1">Allan Rodrigues</h3>
+                <p className="text-neuro-lightPurple">Especialista em IA para RH</p>
               </div>
               
-              <p className="text-lg mb-4">
-                Especialista certificado em RH com certificação em IA da Amazon (AWS). 
-                Especializado em desenvolvimento de lideranças e treinamentos práticos, 
-                combinando tecnologia com práticas de RH centradas no ser humano.
-                Eleito Jovem Talento de RH em 2023 pela Top OF Mind RH.
+              <div className="absolute top-10 -right-5 w-24 h-24 bg-neuro-purple rounded-full opacity-25"></div>
+              <div className="absolute -bottom-5 -left-5 w-32 h-32 bg-neuro-blue rounded-full opacity-15"></div>
+            </div>
+          </div>
+          
+          <div className="w-full md:w-1/2">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-neuro-dark">
+              Quem vai te ensinar a dominar a IA no RH
+            </h2>
+            
+            <div className="space-y-4 text-gray-700">
+              <p>
+                Com mais de 10 anos de experiência na área de Recursos Humanos e especialista em transformação digital, Allan Rodrigues tem ajudado dezenas de profissionais e empresas a integrar tecnologias de IA em seus processos de RH.
               </p>
               
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-neuro-lightPurple/30 text-neuro-purple rounded-full text-sm font-medium">
-                  Especialista em IA para RH
-                </span>
-                <span className="px-3 py-1 bg-neuro-lightPurple/30 text-neuro-purple rounded-full text-sm font-medium">
-                  Certificação AWS
-                </span>
-                <span className="px-3 py-1 bg-neuro-lightPurple/30 text-neuro-purple rounded-full text-sm font-medium">
-                  +10 anos em RH
-                </span>
-                <span className="px-3 py-1 bg-neuro-lightPurple/30 text-neuro-purple rounded-full text-sm font-medium">
-                  Jovem Talento RH 2023
-                </span>
+              <p>
+                Formado em Psicologia com especialização em Gestão de Pessoas, é certificado em IA aplicada e possui vasta experiência prática na implementação de soluções baseadas em inteligência artificial para melhorar processos de recrutamento, seleção, treinamento e gestão de talentos.
+              </p>
+              
+              <p>
+                Neste treinamento intensivo, ele compartilhará as estratégias e técnicas que utiliza em seu dia a dia e que geraram resultados extraordinários para equipes de RH em empresas de diversos portes e segmentos.
+              </p>
+              
+              <div className="pt-4">
+                <h3 className="text-xl font-semibold mb-3 text-neuro-dark">Resultados que você pode esperar:</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Redução de 70% no tempo gasto em triagem de currículos</li>
+                  <li>Automação de 80% dos processos administrativos</li>
+                  <li>Aumento de 50% na satisfação das lideranças com o RH</li>
+                  <li>Impacto direto nos resultados de negócio da empresa</li>
+                </ul>
               </div>
             </div>
           </div>

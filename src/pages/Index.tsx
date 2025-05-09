@@ -21,16 +21,16 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <HeroSection scrollToPrice={scrollToPrice} />
+      <VideoSection />
+      <ModulesSection />
       <AudienceSection />
       <LearnSection />
-      <ModulesSection />
       <TestimonialsSection />
-      <BonusSection />
       <AuthorSection />
+      <BonusSection />
       <div ref={priceRef}>
         <PriceSection id="price" />
       </div>
-      <VideoSection />
       <Footer />
     </div>
   );
