@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 255 76% 59%;
+    --primary: 270 64% 56%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 240 5.9% 10%;
@@ -25,7 +25,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 260 82% 59%;
+    --accent: 270 64% 56%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 255 76% 59%;
+    --ring: 270 64% 56%;
 
     --radius: 0.5rem;
 
@@ -122,11 +122,11 @@
   }
   
   .neuro-logo-glow {
-    filter: drop-shadow(0 0 10px rgba(155, 135, 245, 0.5));
+    filter: drop-shadow(0 0 10px rgba(135, 82, 204, 0.5));
     transition: filter 0.3s ease;
   }
   
   .neuro-logo-glow:hover {
-    filter: drop-shadow(0 0 15px rgba(155, 135, 245, 0.8));
+    filter: drop-shadow(0 0 15px rgba(135, 82, 204, 0.8));
   }
 }

@@ -5,7 +5,7 @@ import { Play } from "lucide-react";
 
 const VideoSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gradient-to-b from-white to-neuro-lightGray">
       <div className="container-custom">
         <div className="flex flex-col items-center justify-center text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-neuro-dark mb-4">
@@ -19,7 +19,6 @@ const VideoSection = () => {
         <div className="max-w-4xl mx-auto relative">
           <div className="bg-gradient-to-r from-neuro-purple to-neuro-blue rounded-2xl p-1">
             <div className="relative aspect-video rounded-xl overflow-hidden bg-black/80 flex items-center justify-center">
-              {/* Replace with actual video player when ready */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <Button 
                   className="h-16 w-16 rounded-full bg-white hover:bg-neuro-purple hover:scale-110 transition-all duration-300"

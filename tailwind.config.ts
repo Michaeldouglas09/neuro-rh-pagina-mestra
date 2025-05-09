@@ -64,9 +64,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				neuro: {
-					purple: '#6042EC',
-					darkPurple: '#4B21E6',
-					lightPurple: '#9B87F5',
+					purple: '#8752cc', // Updated to match reference site
+					darkPurple: '#7242b3', // Darker purple from reference
+					lightPurple: '#a375df', // Lighter purple from reference
 					blue: '#4285F4',
 					lightBlue: '#D6E4FF',
 					dark: '#1A1F2C',
