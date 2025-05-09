@@ -33,7 +33,7 @@ const VideoSection = () => {
               <img 
                 src="/lovable-uploads/a91ebfce-80a4-4d29-8418-34c7f88815e4.png"
                 alt="Palestrante NeuroRH" 
-                className="w-full h-full object-cover object-center opacity-70"
+                className="w-full h-full object-contain opacity-70"
               />
             </div>
           </div>

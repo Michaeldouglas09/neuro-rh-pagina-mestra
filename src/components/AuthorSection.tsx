@@ -12,7 +12,7 @@ const AuthorSection = () => {
                 <img 
                   src="/lovable-uploads/2e1f6f69-650a-4d9e-b98e-a7a8210a94a9.png" 
                   alt="Foto do Instrutor" 
-                  className="w-full h-full object-cover object-top" 
+                  className="w-full h-full object-contain" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               </div>
