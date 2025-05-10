@@ -58,7 +58,7 @@ const LeadForm: React.FC = () => {
     toast.success(`Obrigado ${data.firstName}! Entraremos em contato em breve.`);
     
     // Redirect to form
-    window.open("https://form.jotform.com/251227913997670", "_blank");
+    window.open("https://drive.google.com/file/d/1tqaRvYzq5R9PTAMPwg_-l5I7zDHQEJlT/view", "_blank");
   }
 
   return (
