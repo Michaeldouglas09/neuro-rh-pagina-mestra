@@ -31,9 +31,9 @@ const VideoSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               
               <img 
-                src="/lovable-uploads/a91ebfce-80a4-4d29-8418-34c7f88815e4.png"
+                src="/lovable-uploads/1994b892-eaa5-4e6f-8a47-ae3262182659.png"
                 alt="Palestrante NeuroRH" 
-                className="w-full h-full object-contain opacity-70"
+                className="w-full h-full object-contain opacity-90"
               />
             </div>
           </div>

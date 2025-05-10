@@ -33,15 +33,15 @@ const AuthorSection = () => {
             
             <div className="space-y-4 text-gray-700">
               <p>
-                Com mais de 10 anos de experiência na área de Recursos Humanos e especialista em transformação digital, Allan Rodrigues tem ajudado dezenas de profissionais e empresas a integrar tecnologias de IA em seus processos de RH.
+                Com mais de 10 anos de experiência na área de Recursos Humanos e especialista em transformação digital, Michael Douglas tem ajudado dezenas de profissionais e empresas a integrar tecnologias de IA em seus processos de RH.
               </p>
               
               <p>
-                Formado em Psicologia com especialização em Gestão de Pessoas, é certificado em IA aplicada e possui vasta experiência prática na implementação de soluções baseadas em inteligência artificial para melhorar processos de recrutamento, seleção, treinamento e gestão de talentos.
+                Atua como RH no maior programa de microcrédito da américa latina, é especialista em RH com certificação de IA da Amazon (AWS). Especialista em desenvolvimento de liderança e treinamento prático, combinando tecnologia com práticas de RH centradas no ser humano.
               </p>
               
               <p>
-                Neste treinamento intensivo, ele compartilhará as estratégias e técnicas que utiliza em seu dia a dia e que geraram resultados extraordinários para equipes de RH em empresas de diversos portes e segmentos.
+                Eleito como Jovem Talento de RH em 2023 pela TOP OF MIND RH a nível Brasil. Facilitador dos cursos de Processo Seletivo do portal "Na Prática" (Antiga Fundação Estudar).
               </p>
               
               <div className="pt-4">
