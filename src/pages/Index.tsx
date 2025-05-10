@@ -10,6 +10,7 @@ import VideoSection from '@/components/VideoSection';
 import AuthorSection from '@/components/AuthorSection';
 import Footer from '@/components/Footer';
 import ModulesSection from '@/components/ModulesSection';
+import GoogleMap from '@/components/GoogleMap';
 
 const Index = () => {
   const priceRef = useRef<HTMLDivElement>(null);
@@ -31,6 +32,7 @@ const Index = () => {
       <div ref={priceRef}>
         <PriceSection id="price" />
       </div>
+      <GoogleMap />
       <Footer />
     </div>
   );
