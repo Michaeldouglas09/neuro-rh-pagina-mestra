@@ -93,7 +93,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
               </div>
               
               <a 
-                href="https://form.jotform.com/251227913997670" 
+                href="https://pay.kiwify.com.br/oF6ADfU" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block w-full"

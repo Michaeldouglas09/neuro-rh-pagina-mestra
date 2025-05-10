@@ -17,7 +17,7 @@ const Footer = () => {
             Invista em você mesmo e destaque-se com conhecimento prático.
           </p>
           <a 
-            href="https://form.jotform.com/251227913997670" 
+            href="https://pay.kiwify.com.br/oF6ADfU" 
             target="_blank" 
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ const Footer = () => {
           
           <div className="flex flex-col items-center md:items-end gap-4">
             <a 
-              href="https://form.jotform.com/251227913997670" 
+              href="https://pay.kiwify.com.br/oF6ADfU" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-neuro-lightPurple hover:text-white transition-colors"
@@ -63,7 +63,7 @@ const Footer = () => {
             
             <div className="flex items-center gap-2 mt-4">
               <Lock size={14} />
-              <span className="text-sm text-neuro-gray">Pagamento 100% seguro via Jotform</span>
+              <span className="text-sm text-neuro-gray">Pagamento 100% seguro via Kiwify</span>
             </div>
           </div>
         </div>
