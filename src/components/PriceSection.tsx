@@ -84,11 +84,11 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Inclui:</span>
-                  <span>Material + Certificado</span>
+                  <span>Material + Certificado + Coffee break</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Bônus:</span>
-                  <span>E-book com prompts</span>
+                  <span>Prompts + GPT surpresa</span>
                 </div>
               </div>
               

@@ -1,14 +1,32 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const AuthorSection = () => {
+  const [animatePhoto, setAnimatePhoto] = useState(false);
+  
+  useEffect(() => {
+    // Start the animation shortly after component mount
+    const timer = setTimeout(() => {
+      setAnimatePhoto(true);
+    }, 500);
+    
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className="py-20 bg-gradient-to-b from-neuro-lightGray to-white">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2">
             <div className="relative">
-              <div className="relative z-10 h-[500px] rounded-2xl overflow-hidden shadow-xl">
+              <div 
+                className={`relative z-10 h-[500px] rounded-2xl overflow-hidden shadow-xl transition-all duration-1000 ease-out ${
+                  animatePhoto 
+                    ? 'opacity-100 translate-y-0 scale-100' 
+                    : 'opacity-0 translate-y-8 scale-95'
+                }`}
+              >
                 <img 
                   src="/lovable-uploads/2e1f6f69-650a-4d9e-b98e-a7a8210a94a9.png" 
                   alt="Foto do Instrutor" 
