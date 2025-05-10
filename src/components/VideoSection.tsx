@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Play } from "lucide-react";
 
 const VideoSection = () => {
   return (
@@ -19,19 +18,10 @@ const VideoSection = () => {
         <div className="max-w-4xl mx-auto relative">
           <div className="bg-gradient-to-r from-neuro-purple to-neuro-blue rounded-2xl p-1">
             <div className="relative aspect-video rounded-xl overflow-hidden bg-black/80 flex items-center justify-center">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Button 
-                  className="h-16 w-16 rounded-full bg-white hover:bg-neuro-purple hover:scale-110 transition-all duration-300"
-                  variant="outline"
-                >
-                  <Play className="h-8 w-8 ml-1 text-neuro-purple hover:text-white" />
-                </Button>
-              </div>
-              
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               
               <img 
-                src="/lovable-uploads/1994b892-eaa5-4e6f-8a47-ae3262182659.png"
+                src="/lovable-uploads/e449320a-d6b4-4d82-983a-776501f8a9eb.png"
                 alt="Palestrante NeuroRH" 
                 className="w-full h-full object-contain opacity-90"
               />
