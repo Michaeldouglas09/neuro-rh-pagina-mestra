@@ -16,7 +16,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
   ];
   
   const eventDetails = [
-    { icon: <Calendar className="text-neuro-purple" />, text: "21 de Junho de 2025" },
+    { icon: <Calendar className="text-neuro-purple" />, text: "28 de Junho de 2025" },
     { icon: <MapPin className="text-neuro-purple" />, text: "Recruitment - Recursos Humanos" },
     { icon: <Clock className="text-neuro-purple" />, text: "Das 9h às 18h" }
   ];
