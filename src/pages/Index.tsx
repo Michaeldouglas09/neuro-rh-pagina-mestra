@@ -6,7 +6,6 @@ import LearnSection from '@/components/LearnSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import BonusSection from '@/components/BonusSection';
 import PriceSection from '@/components/PriceSection';
-import VideoSection from '@/components/VideoSection';
 import AuthorSection from '@/components/AuthorSection';
 import Footer from '@/components/Footer';
 import ModulesSection from '@/components/ModulesSection';
@@ -26,13 +25,12 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <HeroSection scrollToPrice={scrollToPrice} />
-      <VideoSection />
+      <AuthorSection />
       <ModulesSection />
       <AudienceSection />
       <LearnSection />
       <BeforeAfterSection />
       <TestimonialsSection />
-      <AuthorSection />
       <BonusSection />
       <FAQSection />
       <div ref={priceRef}>
