@@ -11,6 +11,10 @@ import AuthorSection from '@/components/AuthorSection';
 import Footer from '@/components/Footer';
 import ModulesSection from '@/components/ModulesSection';
 import GoogleMap from '@/components/GoogleMap';
+import BeforeAfterSection from '@/components/BeforeAfterSection';
+import FAQSection from '@/components/FAQSection';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import FloatingCTA from '@/components/FloatingCTA';
 
 const Index = () => {
   const priceRef = useRef<HTMLDivElement>(null);
@@ -26,14 +30,20 @@ const Index = () => {
       <ModulesSection />
       <AudienceSection />
       <LearnSection />
+      <BeforeAfterSection />
       <TestimonialsSection />
       <AuthorSection />
       <BonusSection />
+      <FAQSection />
       <div ref={priceRef}>
         <PriceSection id="price" />
       </div>
       <GoogleMap />
       <Footer />
+      
+      {/* Floating elements */}
+      <WhatsAppButton />
+      <FloatingCTA scrollToPrice={scrollToPrice} />
     </div>
   );
 };

@@ -129,4 +129,19 @@
   .neuro-logo-glow:hover {
     filter: drop-shadow(0 0 15px rgba(135, 82, 204, 0.8));
   }
+
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 }
