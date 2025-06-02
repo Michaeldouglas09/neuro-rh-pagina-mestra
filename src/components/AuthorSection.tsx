@@ -61,16 +61,6 @@ const AuthorSection = () => {
               <p>
                 Eleito como Jovem Talento de RH em 2023 pela TOP OF MIND RH a nível Brasil. Facilitador dos cursos de Processo Seletivo do portal "Na Prática" (Antiga Fundação Estudar).
               </p>
-              
-              <div className="pt-4">
-                <h3 className="text-xl font-semibold mb-3 text-neuro-dark">Resultados que você pode esperar:</h3>
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>Redução de 70% no tempo gasto em triagem de currículos</li>
-                  <li>Automação de 80% dos processos administrativos</li>
-                  <li>Aumento de 50% na satisfação das lideranças com o RH</li>
-                  <li>Impacto direto nos resultados de negócio da empresa</li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>

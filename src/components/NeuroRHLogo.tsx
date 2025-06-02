@@ -19,7 +19,7 @@ const NeuroRHLogo: React.FC<NeuroRHLogoProps> = ({
   return (
     <div className={`relative ${sizeClasses[size]} ${className}`}>
       <img 
-        src="/lovable-uploads/d79b4270-ed7e-4b43-8d05-0189649f2a2b.png" 
+        src="/lovable-uploads/a91eaf36-77fe-4abd-afd1-ba1c49de1acc.png" 
         alt="NeuroRH Logo" 
         className="w-full h-full object-contain"
         style={{
