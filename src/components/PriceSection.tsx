@@ -48,7 +48,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
     { icon: <Calendar className="text-neuro-purple" />, text: "28 de Junho de 2025" },
     { icon: <MapPin className="text-neuro-purple" />, text: "Recruitment - Recursos Humanos" },
     { icon: <Clock className="text-neuro-purple" />, text: "Das 9h às 18h (8h de conteúdo)" },
-    { icon: <Users className="text-neuro-purple" />, text: "Máximo 25 participantes" }
+    { icon: <Users className="text-neuro-purple" />, text: "Máximo 12 participantes" }
   ];
 
   return (
@@ -145,7 +145,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
                   <span className="text-lg text-gray-400 line-through">R$397</span>
                   <p className="text-4xl font-bold text-neuro-purple">R$197</p>
                 </div>
-                <p className="text-sm text-gray-600">50% OFF - Apenas para as primeiras 25 vagas</p>
+                <p className="text-sm text-gray-600">50% OFF - Apenas para as primeiras 12 vagas</p>
               </div>
               
               <div className="border-t border-gray-200 my-6"></div>
