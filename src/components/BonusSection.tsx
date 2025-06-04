@@ -71,14 +71,14 @@ const BonusSection = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-br from-neuro-blue/5 to-neuro-purple/5 section-padding">
+    <section className="bg-neuro-darkPurple section-padding">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <div className="inline-block p-2 bg-neuro-lightPurple/30 rounded-lg text-neuro-purple mb-4">
+          <div className="inline-block p-2 bg-neuro-lightPurple/30 rounded-lg text-neuro-lightPurple mb-4">
             <Award size={32} />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold">
-            Bônus poderosos <span className="text-neuro-purple">(cada um vale o preço do curso!)</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
+            Bônus poderosos <span className="text-neuro-lightPurple">(cada um vale o preço do curso!)</span>
           </h2>
         </div>
         
