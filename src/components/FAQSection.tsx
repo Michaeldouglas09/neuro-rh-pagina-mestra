@@ -67,9 +67,9 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-neuro-darkPurple">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-neuro-dark">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
           Perguntas Frequentes
         </h2>
         <div className="max-w-3xl mx-auto">
