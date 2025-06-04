@@ -50,9 +50,9 @@ const LearnSection = () => {
   ];
 
   return (
-    <section className="bg-neuro-lightGray section-padding">
+    <section className="bg-neuro-purple section-padding">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
           O que você vai aprender
         </h2>
         
@@ -80,7 +80,7 @@ const LearnSection = () => {
           </div>
         </div>
 
-        <p className="text-center mt-12 text-lg font-medium text-neuro-purple">
+        <p className="text-center mt-12 text-lg font-medium text-white">
           Tudo isso explicado passo a passo, com exemplos práticos e aplicações reais.
         </p>
       </div>
