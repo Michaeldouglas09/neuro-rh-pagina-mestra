@@ -16,7 +16,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2025-06-28').getTime();
+    const targetDate = new Date('2025-08-30').getTime();
     
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -45,8 +45,8 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
   ];
   
   const eventDetails = [
-    { icon: <Calendar className="text-neuro-purple" />, text: "28 de Junho de 2025" },
-    { icon: <MapPin className="text-neuro-purple" />, text: "Recruitment - Recursos Humanos" },
+    { icon: <Calendar className="text-neuro-purple" />, text: "30 de Agosto de 2025" },
+    { icon: <MapPin className="text-neuro-purple" />, text: "Centro de Eventos Recife" },
     { icon: <Clock className="text-neuro-purple" />, text: "Das 9h às 18h (8h de conteúdo)" },
     { icon: <Users className="text-neuro-purple" />, text: "Máximo 12 participantes" }
   ];
@@ -173,7 +173,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({ id }) => {
               </div>
               
               <a 
-                href="https://pay.kiwify.com.br/oF6ADfU" 
+                href="https://doity.com.br/neuro-rh--recife" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block w-full"

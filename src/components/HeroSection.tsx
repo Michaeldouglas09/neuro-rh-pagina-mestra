@@ -17,7 +17,7 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
           <div className="flex-1 text-center md:text-left">
             <div className="inline-flex items-center gap-2 bg-red-50 text-red-600 font-medium px-4 py-2 rounded-full mb-6 border border-red-200">
               <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-              Curso Presencial • Apenas 12 Vagas • 28/06/2025
+              Curso Presencial • Apenas 12 Vagas • 30/08/2025
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
