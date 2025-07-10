@@ -49,7 +49,7 @@ const FloatingCTA: React.FC<FloatingCTAProps> = ({ scrollToPrice }) => {
               Últimas vagas disponíveis
             </div>
             <p className="font-semibold text-neuro-dark">
-              Garante sua vaga no NeuroRH por apenas R$197
+              Garante sua vaga no NeuroRH por apenas R$127,90
             </p>
           </div>
           

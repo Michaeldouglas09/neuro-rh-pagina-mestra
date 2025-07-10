@@ -14,7 +14,7 @@ const PricingCard: React.FC = () => {
         <p className="text-lg font-medium text-neuro-purple">Valor do Investimento</p>
         <div className="flex items-center justify-center gap-2 mb-2">
           <span className="text-lg text-gray-400 line-through">R$397</span>
-          <p className="text-4xl font-bold text-neuro-purple">R$197</p>
+          <p className="text-4xl font-bold text-neuro-purple">R$127,90</p>
         </div>
         <p className="text-sm text-gray-600">50% OFF - Apenas para as primeiras 12 vagas</p>
       </div>

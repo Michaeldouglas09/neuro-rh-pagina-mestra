@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import NeuroRHLogo from './NeuroRHLogo';
@@ -33,7 +32,7 @@ const HeroSection: React.FC<HeroProps> = ({ scrollToPrice }) => {
                 className="btn-primary text-lg group"
                 onClick={scrollToPrice}
               >
-                Garantir minha vaga por R$197 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                Garantir minha vaga por R$127,90 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
                 variant="outline"
